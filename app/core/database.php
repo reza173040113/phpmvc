@@ -48,7 +48,7 @@ class Database{
 				$type = PDO::PARAM_NULL;
 				break;
 
-				deafult :
+				default :
 				$type = PDO::PARAM_STR;
 				break;
 			}
